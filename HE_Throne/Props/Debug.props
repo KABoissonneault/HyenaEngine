@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir />
+    <IntDir />
+    <TargetName />
+    <TargetExt />
+    <ExtensionsToDeleteOnClean />
+    <EnableManagedIncrementalBuild />
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <BuildLog>
+      <Path />
+    </BuildLog>
+    <ClCompile>
+      <SuppressStartupBanner />
+    </ClCompile>
+    <ClCompile>
+      <WarningLevel />
+    </ClCompile>
+    <ClCompile>
+      <TreatWarningAsError />
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions />
+      <FavorSizeOrSpeed />
+      <EnableFiberSafeOptimizations />
+      <PreprocessorDefinitions>DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <UndefineAllPreprocessorDefinitions />
+      <IgnoreStandardIncludePath />
+      <PreprocessToFile />
+      <PreprocessSuppressLineNumbers />
+      <PreprocessKeepComments />
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/NODEFAULTLIB:ibc.lib /NODEFAULTLIB:libcmt.lib /NODEFAULTLIB:msvcrt.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libcmtd.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
